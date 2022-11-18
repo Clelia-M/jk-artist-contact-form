@@ -1,0 +1,244 @@
+/* General Styling */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&family=Nunito:wght@200;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, 
+body {
+	font-family: 'Cormorant Garamond';
+	background-color: #FBF9F5;
+	line-height: 1.4;
+	color: #535251;
+}
+
+a {
+	color:#535251;
+}
+
+ul {
+	list-style: none;
+}
+
+p {
+	margin: 5px 0;
+	line-height: 1.6;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+/* Navbar */
+.navbar {
+	width: 100%;
+	height: auto;
+	background-color: #FBF9F5;
+	padding: 20px;
+	box-shadow: 0 1px 3px rgb(0 0 0 / 10%),
+        0 2px 2px rgb(0 0 0 / 6%),
+        0 0 2px rgb(0 0 0 / 7%);
+}
+
+.navbar-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar ul {
+	display: flex;
+	align-items: center;
+}
+
+.navbar li {
+	margin: 0 15px;
+	font-size: 16px;
+	font-family: 'Nunito';
+	text-transform: uppercase;
+}
+
+.navbar a {
+	text-decoration: none;
+}
+
+.navbar-nav-left a:hover {
+	border-bottom: #535251 1px solid;
+	color: #BBBCBF;
+}
+
+.navbar-nav-right a:hover {
+	border-bottom: #535251 1px solid;
+	color: #BBBCBF;
+}
+
+.navbar-brand img {
+	width: 150px;
+}
+
+.navbar-nav-left {
+	margin-left: 20px;
+}
+
+.navbar-nav-right img {
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	margin-bottom: -5px;
+}
+
+
+
+/* Form */
+
+fieldset {
+    border: none;
+}
+
+
+label {
+	display: block;
+	padding: 10px 0;
+}
+
+legend {
+	font-weight: 600;
+	font-size: 1.3rem;
+	margin: 1.5rem 0 1rem 0;
+	display: block;
+	color:#1b2636
+}
+
+/* Main section */
+
+.img-container img {
+	width: 500px;
+	margin: 10px 50px;
+	float: left;
+}
+
+
+
+/* Form */
+
+.form {
+	margin: 80px 50px;
+}
+
+legend {
+	font-size: 40px;
+	color: #535251;
+}
+
+label {
+	font-size: 20px;
+}
+
+input {
+	inline-size: 100%;
+	justify-items: stretch;
+	align-content: center;
+	align-items: center;
+	background-color: white;
+	position: relative;
+	border: 1px solid white;
+	border-radius: 20px;
+	height: 50px;
+}
+
+input:hover {
+	border: 1px solid #535251;
+}
+
+input::selection {
+	border: 1px solid #535251;
+}
+
+#country-id {
+	inline-size: 100%;
+	display: block;
+    margin-bottom: 5px;
+    width: 100px;
+    font-family: 'Cormorant Garamond';
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+#country-id:hover {
+	border: 1px solid #535251;
+}
+
+#country-id::after {
+	border: 1px solid #535251;
+}
+
+#country-id:active::after {
+	border: 1px solid #535251;
+}
+
+#country-id::selection {
+	border: 1px solid #535251;
+}
+
+button {
+	background-color: #535251;
+	border: #535251;
+	color: white;
+	font-size: 18px;
+	font-family: 'Cormorant Garamond';
+	font-weight: bold;
+	padding: 20px 120px;
+	margin-top: 20px;
+	border-radius: 12px;
+}
+
+
+/* Footer */
+
+.footer-container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 30px 30px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.social img {
+    width: 20px;
+    height: 20px;
+}
+
+.social a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.divider {
+    width: 95%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 40px auto;
+}
+
+footer a {
+	text-decoration: none;
+	border-bottom: #535251 1px solid;
+}
+
+footer a:hover {
+	color: #1b2636;
+	border-bottom: #BBBCBF 1px solid;
+}
