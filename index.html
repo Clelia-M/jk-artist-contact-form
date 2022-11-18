@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <!-- Header -->
+    <!--Navigation bar-->
+            <!-- SX Brand Image-->
+            <!-- DX Menu options-->
+    
+        <nav class="navbar">
+            <div class="navbar-container">
+                <div class="navbar-brand">
+                    <a href="./index.html">
+                        <img src="./img/Joy Kinna.png" alt="JK-Logo">
+                    </a> 
+                </div>
+                    <ul class="navbar-nav-left">
+                        <li>
+                            <a href="#">Shop</a>
+                        </li>
+                        <li>
+                            <a href="#">Commission</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Portfolio</a>
+                        </li>
+                    </ul> 
+
+                    <ul class="navbar-nav-right">
+                        <li>
+                            <img src="img/email-svgrepo-com.svg" alt=""> 
+                            <a href="#">Contact 
+                            </a>
+                        </li>
+                    </ul>                            
+            </div>     
+        </nav>
+    
+
+    <!--Main section --> 
+        <!-- SX Image with caption -->
+        <!-- DX Visitor's contact information = Form-->    
+    
+    <section class="img-section">
+        <div class="img-container">
+            <img src="./img/IMG_2100.jpeg" alt="Joy Kinna Artwork">
+        </div>
+    </section>
+
+    <section class="form">
+            <form>
+            <input type="hidden" name="send_to" value="#">
+                <fieldset>
+                    <legend>Enter Contact Details</legend>
+                    <label for="firstname">First Name </label> 
+                        <input type="text"id="firstname" name="name">
+                    <label for="lastname">Last Name</label> 
+                        <input type="text"id="lastname" name="name">
+                    <label for="email">Email Address</label> 
+                        <input type="email" id="email" name="email">
+                    <p>I won't spam you in any way</p>
+
+                    <label for="phone">Phone number</label>
+					<select id="country-id" name="country-id">
+						<option selected>US +1</option>
+						<option value="UK">UK +44</option>
+						<option value="IT">IT +39</option>
+						<option value="ES">ES +34</option>
+						<option value="FR">FR +33</option>
+					</select>    
+                        <input type="tel"id="phone" name="phone" placeholder="">
+                </fieldset>
+                <button type="submit">Submit</button>
+                </form>
+        </div>
+    </section>
+        
+    <!-- Footer -->
+
+    
+    <div class="divider">
+    <footer class="footer">
+       <div class="footer-container">
+        <p>&copy2022 Joy Kinna Artist. All rights reserved.</p> 
+        <p>This contact form landing page was created as a bootcamp excercise using the artwork and name of a well-renowed and talented artist. If you are interested in her works please visit her official website here: 
+            <a href="https://www.joykinna.com/">  <strong>Joy Kinna</strong></a>
+
+        </p>
+       </div> 
+    </footer>
+</div>
+</body>
+</html>
